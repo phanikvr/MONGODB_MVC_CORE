@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D10F34A-7803-4EC8-AB19-DC328A7AEF2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EDD2A4F-027D-4EF9-A218-141E5B03BCE0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core_MVc_Api_MONGODB", "src\Core_MVc_Api_MONGODB\Core_MVc_Api_MONGODB.xproj", "{70FA513C-628D-46F3-B424-C345E7938ECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70FA513C-628D-46F3-B424-C345E7938ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FA513C-628D-46F3-B424-C345E7938ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FA513C-628D-46F3-B424-C345E7938ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FA513C-628D-46F3-B424-C345E7938ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70FA513C-628D-46F3-B424-C345E7938ECF} = {5D10F34A-7803-4EC8-AB19-DC328A7AEF2F}
+	EndGlobalSection
+EndGlobal
